@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-pm {
+    color: #FD6E0A;
+}
+.btn-pm {
+    font-size: 20px;
+    font-weight: 700;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 35px;
+}
+
+/* NAV CSS */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tittle {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ul > li {
+    list-style: none;   
+}
