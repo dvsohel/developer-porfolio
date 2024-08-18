@@ -1,7 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;    
+}
+ul{
+    list-style: none;
+}
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*COMMON CSS*/
+/* .container {
+    max-width: 1140px;
+    margin: 0 auto;
+} */
 
 .txt-pm {
     color: #FD6E0A;
@@ -15,6 +32,7 @@ body{
     color: white;
     padding: 15px 35px;
 }
+
 
 /* NAV CSS */
 nav {
@@ -32,6 +50,18 @@ nav ul {
     gap: 20px;
     align-items: center;
 }
-ul > li {
-    list-style: none;   
+
+/* HEADER CSS*/
+.header {
+    background-color: #fff8f3;
+}
+
+.banner-section .main-column {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.banner-section img {
+    width: 500px;
+    height: aut0;
 }
