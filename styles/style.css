@@ -54,14 +54,42 @@ nav ul {
 /* HEADER CSS*/
 .header {
     background-color: #fff8f3;
+    padding-top: 30px;
 }
-
+.banner-section {
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 .banner-section .main-column {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    column-gap: 0;
 }
 .banner-section img {
     width: 500px;
     height: aut0;
+}
+.banner-section .left-column {
+    width: 585px;
+}
+.banner-section h3 {
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+    padding: 0;
+}
+.banner-section h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    padding: 5px 0;
+}
+.banner-section p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 20px;
 }
