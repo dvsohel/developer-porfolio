@@ -31,6 +31,7 @@ body{
     border-radius: 5px;
     color: white;
     padding: 15px 35px;
+    cursor: pointer;
 }
 .cmn-heading {
     font-size: 35px;
@@ -98,6 +99,18 @@ nav ul {
     color: #757575;
     padding-bottom: 20px;
 }
+.banner-section .btn-secondary {
+        background: white;
+        color: black;
+        border: 1px solid #00000029;
+        cursor: pointer;
+}
+.banner-section .btn-secondary:hover {
+    background: #FD6E0A;
+    color:  #ffffff;
+    border: none;
+    cursor: pointer;
+}
 
 /*ABOUT ME CSS*/
 .about-me {
@@ -146,7 +159,9 @@ nav ul {
 .what-i-do .heding {
     text-align: center;
 }
-
+.what-i-do {
+    margin-bottom: 50px;
+}
 .what-i-do .heading-p {
     font-size: 18px;
     line-height: 30px;
@@ -180,4 +195,46 @@ nav ul {
     font-weight: 400;
     color: #757575;
     line-height: 28px;
+}
+
+/* CONTACT FROM CSS*/
+.contact {
+    background-color: #FFF8F3;
+}
+.contact .main-column {
+    display: flex;
+    gap: 50px;
+    padding: 100px 0px;
+}
+.contact .left-column {
+    max-width: 565px;
+}
+.contact .right-column input[type="text"], input[type="email"], textarea {
+    display: block;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    color: #757575;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.contact .right-column {
+    width: 100%;
+    padding-left: 30px;
+}
+.contact h2 {
+    padding-bottom: 30px;
+}
+.contact .btn-secondary {
+    background: white;
+    color: black;
+    border: 1px solid #00000029;
+    cursor: pointer;
+}
+.contact .btn-secondary:hover {
+    background: #FD6E0A;
+    color:  #ffffff;
+    border: 0;
+    cursor: pointer;
 }
